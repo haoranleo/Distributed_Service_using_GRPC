@@ -25,3 +25,16 @@ The command line argument format is like:
 ```
 	./store address maximum_number_of_threads
 ```
+
+## Test
+Simply run following command:
+```
+	cd Project\ 3/test
+	make
+	./run_vendors ../src/vendor_addresses.txt &
+	cd ../src
+	make
+	./store address maximum_number_of_threads
+	cd ../test
+	./run_tests $IP_and_port_on_which_store_is_listening 
+```
