@@ -13,10 +13,15 @@ In addition, this project uses my own threadpool: upon receiving a client reques
 
 ## Source file
 **store.cc:** Implementation of store management.
+
 **threadpool.h** Implementation of threadpool management.
 
 ## Compile
-Simply use **make**
+Simply use make:
+```
+	cd Project\ 3/src
+	make
+```
 
 ## Run
 The server is able to accept command line input of the address on which it is going to expose its service and maximum number of threads its threadpool should have. 
